@@ -13,7 +13,7 @@ int main(){
 	a += 12; // a = [15, 4, 2, 1, 0, 12]
 	for (i = 0; i<a.get_size(); ++i)
 		cout << a[i] << endl;
-	b = a.get_item(4, -3); // b = [] *Èôstart > end£¬·µ»Ø¿ÕÊý×é
+	b = a.get_item(4, -3); // b = [] 
 	b = a.get_item(3, -1); // b = [1, 0, 12]
 	a += b; // a = [15, 4, 2, 1, 0, 12, 1, 0, 12]
 	for (i = 0; i<a.get_size(); ++i)
